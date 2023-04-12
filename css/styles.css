@@ -137,7 +137,7 @@ img {
    margin: auto;
 }   
 .search-btn {
-    display: block;
+    
     min-width: 169px;
     height: 56px;
     border: none;
@@ -152,6 +152,8 @@ img {
     color: var(--back-color);
     background-color: var(--primary-brand-color);
     cursor: pointer;
+    display: block;
+
 }    
 .search-btn:hover,
 .search-btn:focus {
@@ -166,7 +168,7 @@ img {
     gap: 24px;
 } 
 .title-item {
-    flex-basis: calc((100%-3*24px)/4) ;
+    width: calc((100%-72px)/4) ;
 }
 .title-names {
     margin-bottom: 72px;
@@ -290,6 +292,7 @@ img {
     color: var(--primary-brand-color);
 }
 .span-logo {
+    display: inline-block;
     color: #f4f4fd;
 }         
 .footer-text {
@@ -342,21 +345,22 @@ img {
 
 }
 .menu-list {
-
-}
-.menu-item {
     display: flex;
     gap: 40px;
     padding: 24px 0;
+}
+.menu-item {
+   
 }
 .address {
     font-style: normal;
 }
 .address-list {
-
+     display: flex;
+    gap: 40px;
 }
 .address-item {
-
+    
 }
 .address-link {
     font-weight: 400;
