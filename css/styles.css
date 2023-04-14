@@ -234,7 +234,7 @@ img {
     gap: 24px;
 }
 .work-item {
-    flex-basis: calc((100%-3*24px)/4);
+    flex-basis: calc((100%-3*16px)/3);
 }
 .work-img {
     
@@ -296,6 +296,7 @@ img {
     /====== Footer ========/
 
 .footer {
+    padding: 100px 0;
     background-color: var(--dark-color);
 }
 .footer-cont {
@@ -303,7 +304,6 @@ img {
 }
 
 .footer-logo {
-    padding: 100px 0;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
