@@ -284,6 +284,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
+    /====== Footer ========/
+
 .footer {
     padding: 100px 0;
     background-color: var(--dark-color);
