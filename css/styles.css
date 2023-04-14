@@ -53,8 +53,11 @@ img {
     gap: 40px;
 }  
 .menu-list {
+    list-style: none;
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }  
 .navs-logo {
     margin-right: 76px;
@@ -103,6 +106,8 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--dark-color);
+    display: flex;
+    gap: 40px;
 
 }
 
