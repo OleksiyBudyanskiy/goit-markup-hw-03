@@ -48,8 +48,8 @@ img {
 .header-cont {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px;
+    
 
 }    
 .navs {
@@ -88,7 +88,7 @@ img {
     color: var(--dark-color);
     
 }
-.menu-list {
+.menu {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -334,8 +334,8 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px;
+    
 }
 .nav {
     display: flex;
