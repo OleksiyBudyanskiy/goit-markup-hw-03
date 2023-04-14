@@ -44,12 +44,13 @@ img {
 .header {
     border-bottom: 1px solid#e7e9fc;
     display: flex;
-    padding: 0 15px;
-    gap: 40px;
-}
+    }
 .header-cont {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }    
 .navs {
     display: flex;
@@ -88,11 +89,12 @@ img {
     
 }
 .menu-list {
-    list-style: none;
     display: flex;
+    list-style: none;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }   
 .menu-item {
     flex-basis: calc((100%-48px)/3);
@@ -104,9 +106,7 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: var(--dark-color);
-    display: flex;
-    gap: 40px;
-
+   
 }
 
 .menu-link:hover,
@@ -324,7 +324,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
-   /=====Portfolio======/
+   
 
 .header {
     border-bottom: 1px solid#e7e9fc; 
@@ -334,6 +334,8 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .nav {
     display: flex;
