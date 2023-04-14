@@ -411,8 +411,6 @@ img {
     border: 1px solid#e7e9fc;
 }
 .gallery-item {
-    border: 1px solid#e7e9fc;
-    width: calc((100%-48px)/3);
 }
 .gallery-list {
     display: flex;
@@ -439,19 +437,20 @@ img {
 }
 .gallery-search-btn:hover,
 .gallery-search-btn:focus {
-    border: 1px solid transparent ;
+  border: 1px solid transparent ;
   color: var(--back-color); 
   background-color: var(--primary-dark-color);
 }
 
-.card-img {
+.card-item {
+    width: calc((100%-48px)/3);
+    border: 1px solid#e7e9fc:
 
 }
 .card-list {
-    width: calc((100%-48px)/3);
     list-style: none;
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     
@@ -459,7 +458,7 @@ img {
     
 .card-item-cont {
     padding: 32px 16px;
-    border: 1px solid#e7e9fc:
+    
     border-top: none;
 }
 .card-link {
