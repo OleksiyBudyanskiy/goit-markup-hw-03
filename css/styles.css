@@ -59,7 +59,6 @@ img {
     margin-right: auto;
     align-items: center;
     padding: 0 15px;
-    gap: 40px;
 }  
   
 .navs-logo {
@@ -77,30 +76,16 @@ img {
     
 }
 .navs-span-logo {
-    margin-right: 76px;
-    display: inline-block;
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 0.86;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--dark-color);
-    
+        color: var(--dark-color);
 }
 .menu {
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     gap: 40px;
 }   
 .menu-item {
-    flex-basis: calc((100%-48px)/3);
-    margin-right: 40px;
    
 } 
 .menu-link {
@@ -153,7 +138,6 @@ img {
    margin: auto;
 }   
 .search-btn {
-    
     min-width: 169px;
     height: 56px;
     border: none;
@@ -162,14 +146,13 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--back-color);
     background-color: var(--primary-brand-color);
     cursor: pointer;
     display: block;
-
+    margin: auto;
 }    
 .search-btn:hover,
 .search-btn:focus {
@@ -408,8 +391,7 @@ img {
 
 }    
 .gallery-cont {
-    border: 1px solid#e7e9fc;
-}
+}   
 .gallery-item {
 }
 .gallery-list {
@@ -423,7 +405,7 @@ img {
 .gallery-search-btn {
     padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid#e7e9fc;
+   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -437,13 +419,13 @@ img {
 }
 .gallery-search-btn:hover,
 .gallery-search-btn:focus {
-  border: 1px solid transparent ;
+  border: 1px solid transparent;
   color: var(--back-color); 
   background-color: var(--primary-dark-color);
 }
 
 .card-item {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px)/3);
     border: 1px solid#e7e9fc:
 
 }
