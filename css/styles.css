@@ -61,8 +61,7 @@ img {
   
 .navs-logo {
     margin-right: 76px;
-    display: flex;
-    gap: 40px;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -72,12 +71,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brand-color);
-    padding: 24px 0;
+    
 }
 .navs-span-logo {
     margin-right: 76px;
-    display: flex;
-    gap: 40px;
+    display: inline-block;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -87,7 +85,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--dark-color);
-    padding: 24px 0;
+    
 }
 .menu-list {
     list-style: none;
@@ -293,8 +291,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-    /====== Footer ========/
-
+    
 .footer {
     padding: 100px 0;
     background-color: var(--dark-color);
@@ -482,7 +479,7 @@ img {
     background-color: var(--dark-color);
 }
 .footer-conta {
-    
+    padding: 100px 0;
 }
 .logo {
     font-family: "Raleway", sans-serif;
