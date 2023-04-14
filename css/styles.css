@@ -404,7 +404,7 @@ img {
     color: var(--primary-dark-color);
 }
 .gallery {
-        
+    padding: 96px 0 120px;    
 
 }    
 .gallery-cont {
