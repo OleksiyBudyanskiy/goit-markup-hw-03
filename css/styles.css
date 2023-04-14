@@ -297,7 +297,7 @@ img {
 }
 
 .footer-logo {
-    
+    padding: 100px 0;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -403,7 +403,7 @@ img {
 .gallery-cont {
     border: 1px solid#e7e9fc;
 }
-.gallery-headline {
+.gallery-item {
     width: calc((100%-48px)/3);
 }
 .gallery-list {
