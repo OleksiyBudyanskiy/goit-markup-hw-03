@@ -168,14 +168,13 @@ img {
 .section-names {
     padding: 120px 0;
     margin-bottom: 120 px;
-    width: calc((100%-72px)/4);
 }
 .title-list {
     display: flex;
     gap: 24px;
 } 
 .title-item {
- 
+   width: calc((100%-72px)/4);
 }
     
 .title-names {
@@ -227,6 +226,7 @@ img {
     gap: 24px;
 }
 .work-item {
+    width: calc((100%-72px)/4);
 }
 .work-img {
     
@@ -236,7 +236,7 @@ img {
     background-color: #f4f4fd;
 }
 .our-team {
-    width: calc((100%-72px)/4);
+    
     margin-bottom: 72px;
     font-style: normal;
     font-weight: 700;
