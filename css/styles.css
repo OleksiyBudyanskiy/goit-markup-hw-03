@@ -52,13 +52,7 @@ img {
     padding: 0 15px;
     gap: 40px;
 }  
-.menu-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}  
+  
 .navs-logo {
     margin-right: 76px;
     display: flex;
@@ -183,7 +177,7 @@ img {
     gap: 24px;
 } 
 .title-item {
-   width: calc((100%-3*24px)/4);
+   flex-basis: calc((100%-3*24px)/4);
 }
     
 .title-names {
@@ -234,7 +228,7 @@ img {
     gap: 24px;
 }
 .work-item {
-    width: calc((100%-3*24px)/4);
+    flex-basis: calc((100%-3*24px)/4);
 }
 .work-img {
     
@@ -296,11 +290,10 @@ img {
     /====== Footer ========/
 
 .footer {
-    padding: 100px 0;
     background-color: var(--dark-color);
 }
 .footer-cont {
-
+    padding: 100px 0;
 }
 
 .footer-logo {
