@@ -46,7 +46,7 @@ img {
 .header {
     border-bottom: 1px solid#e7e9fc;
     display: flex;
-    }
+}
 .header-cont {
     display: flex;
     align-items: center;
@@ -152,7 +152,8 @@ img {
     background-color: var(--primary-brand-color);
     cursor: pointer;
     display: block;
-    margin: auto;
+    margin: 48px auto;
+    gap: 10px;
 }    
 .search-btn:hover,
 .search-btn:focus {
@@ -200,7 +201,7 @@ img {
 
 }
 .work {
-    padding: 120px 0;
+   
 }
 .work-name {
     margin-bottom: 72px;
@@ -279,11 +280,11 @@ img {
 }
     
 .footer {
-    padding: 100px 0;
-    background-color: var(--dark-color);
+     background-color: var(--dark-color);
 }
 .footer-cont {
     padding: 100px 0;
+    
 }
 
 .footer-logo {
@@ -304,9 +305,10 @@ img {
     color: #f4f4fd;
 }         
 .footer-text {
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.67;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
@@ -484,9 +486,10 @@ img {
 }
 
 .text {
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.67;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud); 
 
