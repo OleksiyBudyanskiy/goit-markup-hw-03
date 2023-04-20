@@ -482,11 +482,9 @@ img {
     text-transform: uppercase;
     color: var(--primary-brand-color);
 }
-
 .span-studio {
     color: #f4f4fd;
 }
-
 .text {
     width: 264px;
     font-weight: 400;
