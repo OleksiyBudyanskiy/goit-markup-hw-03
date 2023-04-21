@@ -281,11 +281,12 @@ img {
 }
     
 .footer {
-    padding: 100px 0;
     background-color: var(--dark-color);
+    
 }
 .footer-cont {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -469,7 +470,9 @@ img {
     background-color: var(--dark-color);
 }
 .footer-conta {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 .logo {
     font-family: "Raleway", sans-serif;
