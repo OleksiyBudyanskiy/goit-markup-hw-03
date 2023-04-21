@@ -282,10 +282,10 @@ img {
     
 .footer {
     background-color: var(--dark-color);
-   
+   padding: 100px 0;
 }
 .footer-cont {
-    padding: 100px 0;
+   
     
     
 }
@@ -468,9 +468,10 @@ img {
 }
 .footer-portfolio {
     background-color: var(--dark-color);
+    padding: 100px 0;
 }
 .footer-conta {
-    padding: 100px 0;
+    
     
 }
 .logo {
