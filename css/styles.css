@@ -135,7 +135,7 @@ img {
    line-height: 1.07;
    color: var(--back-color);
    max-width: 496px;
-   margin: auto;
+   margin: 0 auto;
 }   
 .search-btn {
     min-width: 169px;
@@ -152,7 +152,7 @@ img {
     background-color: var(--primary-brand-color);
     cursor: pointer;
     display: block;
-    margin: 48px auto;
+    margin: 48px auto 0;
     gap: 10px;
 }    
 .search-btn:hover,
