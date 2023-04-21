@@ -282,11 +282,11 @@ img {
     
 .footer {
     background-color: var(--dark-color);
-    
+   
 }
 .footer-cont {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
+    
     
 }
 
@@ -470,8 +470,7 @@ img {
     background-color: var(--dark-color);
 }
 .footer-conta {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     
 }
 .logo {
